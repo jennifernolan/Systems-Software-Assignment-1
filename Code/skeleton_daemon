@@ -1,0 +1,87 @@
+#source library
+. /etc/init.d/functions
+
+PATH=/usr/sbin
+DESC="Automatic running of daemon"
+DAEMON=/home/jennifer/Documents/Assignment1/daemon
+DAEMON_ARGS="--options args"
+PIDFILE=/var/run/skeleton_daemon.pid
+
+#exit if package not installed
+[-x "$DAEMON"] || exit 0
+
+#read config variable file
+[-r /etc/default/skeleton_daemon] && . /etc/default.skeleton_daemon
+
+#load verbose
+. /lib/init/vars.sh
+
+do_start()
+{
+	start-stop-daemon --start --quiet --pidfile $PIDFILE --exec $DAEMON --test > /dev/nul \
+		|| return 1
+	start-stop-daemon --start --quiet --pidfile $PIDFILE --exec $DAEMON -- \
+		$DAEMON_ARGS \
+		|| return 2
+}
+
+do_stop()
+{
+	start-stop-daemon --stop --quiet --retry=TERM/30/KILL/5 --pidfile $PIDFILE --name skeleton_daemon
+	RETVAL="$?"
+	["$RETVAL" = 2] && return 2
+
+	start-stop-daemon --stop --quiet --oknodo --retry=0/30/KILL/5 --exec $DAEMON
+	["$?" = 2] && return 2
+
+	rm -f $PIDFILE
+	return "$RETVAL"
+}
+
+do_reload()
+{
+	start-stop-daemon --stop --signal 1 --quiet --pidfile $PIDFILE --name skeleton_daemon
+	return 0	
+}
+
+case "$1" in
+	do_start)
+		["$VERBOSE" != no] && log_daemon_msg "Starting $DESC" "skeleton_daemon"
+		start
+		case "$?" in
+			0|1) ["$VERBOSE" != no] && log_end_msg 0 ;;
+			2) ["$VERBOSE" != no] && log_end_msg 1 ;;
+		esac
+		;;
+	do_stop)
+		["$VERBOSE" != no] && log_daemon_msg "Stopping $DESC" "skeleton_daemon"
+		stop
+		case "$?" in
+			0|1) ["$VERBOSE" != no] && log_end_msg 0 ;;
+			2) ["$VERBOSE" != no] && log_end_msg 1 ;;
+		esac
+		;;
+	status)
+		status_of_proc "$DAEMON" "skeleton_daemon" && exit 0 || exit $?
+	do_restart|force-reload)
+		log_daemon_msg "Restarting $DESC" "skeleton_daemon"
+		stop
+		case "$?" in
+			0|1)
+				start
+				case "$?" in
+					0) log_end_msg 0 ;;
+					1) log_end_msg 1 ;;
+					*) log_end_msg 1 ;;
+				esac
+				;;
+			*)
+				log_end_msg 1
+				;;
+		esac
+		;;
+	*)
+		echo "Usage: /etc/init.d/skeleton_daemon {start|stop|restart|reload|force-reload}" >&2
+		exit 3
+		;;
+esac

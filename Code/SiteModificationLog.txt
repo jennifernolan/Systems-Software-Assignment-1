@@ -1,0 +1,313 @@
+----
+time->Sat Mar  7 19:31:05 2020
+type=PROCTITLE msg=audit(1583609465.818:388): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583609465.818:388): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626128 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583609465.818:388): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583609465.818:388): arch=c000003e syscall=257 success=yes exit=17 a0=ffffff9c a1=561b60267070 a2=0 a3=0 items=1 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:31:20 2020
+type=PROCTITLE msg=audit(1583609480.538:390): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583609480.538:390): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626128 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583609480.538:390): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583609480.538:390): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583609480.538:390): arch=c000003e syscall=257 success=yes exit=17 a0=ffffff9c a1=561b60267070 a2=20041 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:31:20 2020
+type=PROCTITLE msg=audit(1583609480.538:389): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583609480.538:389): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626128 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583609480.538:389): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583609480.538:389): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583609480.538:389): arch=c000003e syscall=257 success=no exit=-17 a0=ffffff9c a1=561b60267070 a2=c1 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:31:20 2020
+type=PROCTITLE msg=audit(1583609480.538:391): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583609480.538:391): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-ADEFH0" inode=2626074 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583609480.538:391): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583609480.538:391): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583609480.538:391): arch=c000003e syscall=257 success=yes exit=18 a0=ffffff9c a1=7fb79003c700 a2=c1 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:31:20 2020
+type=PROCTITLE msg=audit(1583609480.598:394): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583609480.598:394): item=4 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626074 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583609480.598:394): item=3 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626128 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583609480.598:394): item=2 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-ADEFH0" inode=2626074 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583609480.598:394): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583609480.598:394): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583609480.598:394): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583609480.598:394): arch=c000003e syscall=82 success=yes exit=0 a0=7fb79003c700 a1=7fb7900293b0 a2=0 a3=0 items=5 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:31:21 2020
+type=PROCTITLE msg=audit(1583609481.250:395): proctitle="/usr/lib/tracker/tracker-extract"
+type=PATH msg=audit(1583609481.250:395): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626074 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583609481.250:395): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583609481.250:395): arch=c000003e syscall=257 success=yes exit=14 a0=ffffff9c a1=7eff14007df0 a2=0 a3=0 items=1 ppid=890 pid=3247 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="single" exe="/usr/lib/tracker/tracker-extract" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:32:13 2020
+type=PROCTITLE msg=audit(1583609533.511:399): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583609533.511:399): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626074 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583609533.511:399): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583609533.511:399): arch=c000003e syscall=257 success=yes exit=17 a0=ffffff9c a1=561b607b7570 a2=0 a3=0 items=1 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:40:14 2020
+type=PROCTITLE msg=audit(1583610014.624:602): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610014.624:602): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626074 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610014.624:602): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610014.624:602): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610014.624:602): arch=c000003e syscall=257 success=no exit=-17 a0=ffffff9c a1=561b607b7570 a2=c1 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:40:14 2020
+type=PROCTITLE msg=audit(1583610014.624:603): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610014.624:603): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626074 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610014.624:603): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610014.624:603): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610014.624:603): arch=c000003e syscall=257 success=yes exit=19 a0=ffffff9c a1=561b607b7570 a2=20041 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:40:14 2020
+type=PROCTITLE msg=audit(1583610014.624:604): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610014.624:604): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-Z3LDH0" inode=2626118 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610014.624:604): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610014.624:604): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610014.624:604): arch=c000003e syscall=257 success=yes exit=20 a0=ffffff9c a1=7fb788005ac0 a2=c1 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:40:14 2020
+type=PROCTITLE msg=audit(1583610014.640:607): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610014.640:607): item=4 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626118 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610014.640:607): item=3 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626074 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610014.640:607): item=2 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-Z3LDH0" inode=2626118 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610014.640:607): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610014.640:607): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610014.640:607): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610014.640:607): arch=c000003e syscall=82 success=yes exit=0 a0=7fb788005ac0 a1=7fb788005c30 a2=0 a3=0 items=5 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:40:14 2020
+type=PROCTITLE msg=audit(1583610014.880:608): proctitle="/usr/lib/tracker/tracker-extract"
+type=PATH msg=audit(1583610014.880:608): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626118 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610014.880:608): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610014.880:608): arch=c000003e syscall=257 success=yes exit=14 a0=ffffff9c a1=7f4f90007df0 a2=0 a3=0 items=1 ppid=890 pid=3799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="single" exe="/usr/lib/tracker/tracker-extract" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:40:20 2020
+type=PROCTITLE msg=audit(1583610020.628:609): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610020.628:609): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626118 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610020.628:609): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610020.628:609): arch=c000003e syscall=257 success=yes exit=19 a0=ffffff9c a1=561b604c6b60 a2=0 a3=0 items=1 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:41:16 2020
+type=PROCTITLE msg=audit(1583610076.077:618): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610076.077:618): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626118 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610076.077:618): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610076.077:618): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610076.077:618): arch=c000003e syscall=257 success=yes exit=19 a0=ffffff9c a1=561b604c6b60 a2=20041 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:41:16 2020
+type=PROCTITLE msg=audit(1583610076.077:617): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610076.077:617): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626118 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610076.077:617): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610076.077:617): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610076.077:617): arch=c000003e syscall=257 success=no exit=-17 a0=ffffff9c a1=561b604c6b60 a2=c1 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:41:16 2020
+type=PROCTITLE msg=audit(1583610076.077:619): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610076.077:619): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-45V2G0" inode=2626080 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610076.077:619): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610076.077:619): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610076.077:619): arch=c000003e syscall=257 success=yes exit=20 a0=ffffff9c a1=7fb78800dc00 a2=c1 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:41:16 2020
+type=PROCTITLE msg=audit(1583610076.089:622): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610076.089:622): item=4 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626080 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610076.089:622): item=3 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626118 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610076.089:622): item=2 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-45V2G0" inode=2626080 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610076.089:622): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610076.089:622): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610076.089:622): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610076.089:622): arch=c000003e syscall=82 success=yes exit=0 a0=7fb78800dc00 a1=7fb78800a750 a2=0 a3=0 items=5 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:41:16 2020
+type=PROCTITLE msg=audit(1583610076.305:623): proctitle="/usr/lib/tracker/tracker-extract"
+type=PATH msg=audit(1583610076.305:623): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626080 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610076.305:623): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610076.305:623): arch=c000003e syscall=257 success=yes exit=14 a0=ffffff9c a1=7f7b00007df0 a2=0 a3=0 items=1 ppid=890 pid=3833 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="single" exe="/usr/lib/tracker/tracker-extract" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:44:49 2020
+type=PROCTITLE msg=audit(1583610289.820:624): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610289.820:624): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626080 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610289.820:624): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610289.820:624): arch=c000003e syscall=257 success=yes exit=19 a0=ffffff9c a1=561b6025f2d0 a2=0 a3=0 items=1 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:44:53 2020
+type=PROCTITLE msg=audit(1583610293.640:625): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610293.640:625): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626080 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610293.640:625): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610293.640:625): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610293.640:625): arch=c000003e syscall=257 success=no exit=-17 a0=ffffff9c a1=561b6025f2d0 a2=c1 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:44:53 2020
+type=PROCTITLE msg=audit(1583610293.640:626): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610293.640:626): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626080 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610293.640:626): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610293.640:626): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610293.640:626): arch=c000003e syscall=257 success=yes exit=19 a0=ffffff9c a1=561b6025f2d0 a2=20041 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:44:53 2020
+type=PROCTITLE msg=audit(1583610293.640:627): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610293.640:627): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-EO8CH0" inode=2624857 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610293.640:627): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610293.640:627): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610293.640:627): arch=c000003e syscall=257 success=yes exit=20 a0=ffffff9c a1=7fb788005dc0 a2=c1 a3=1b6 items=2 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:44:53 2020
+type=PROCTITLE msg=audit(1583610293.652:630): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583610293.652:630): item=4 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2624857 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610293.652:630): item=3 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626080 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610293.652:630): item=2 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-EO8CH0" inode=2624857 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610293.652:630): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583610293.652:630): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610293.652:630): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610293.652:630): arch=c000003e syscall=82 success=yes exit=0 a0=7fb788005dc0 a1=7fb788003a00 a2=0 a3=0 items=5 ppid=890 pid=2069 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:44:54 2020
+type=PROCTITLE msg=audit(1583610294.404:631): proctitle="/usr/lib/tracker/tracker-extract"
+type=PATH msg=audit(1583610294.404:631): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2624857 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610294.404:631): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583610294.404:631): arch=c000003e syscall=257 success=yes exit=14 a0=ffffff9c a1=7f62dc016df0 a2=0 a3=0 items=1 ppid=890 pid=3896 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="single" exe="/usr/lib/tracker/tracker-extract" subj==unconfined key=(null)
+----
+time->Sat Mar  7 19:45:05 2020
+type=PROCTITLE msg=audit(1583610305.076:632): proctitle=6370002D52002F686F6D652F6A656E6E696665722F446F63756D656E74732F41737369676E6D656E74312F7661722F7777772F68746D6C2F696E7472616E65742F696E6465782E68746D6C002F686F6D652F6A656E6E696665722F446F63756D656E74732F41737369676E6D656E74312F7661722F7777772F68746D6C2F6C69
+type=PATH msg=audit(1583610305.076:632): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2624857 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583610305.076:632): cwd="/"
+type=SYSCALL msg=audit(1583610305.076:632): arch=c000003e syscall=257 success=yes exit=0 a0=ffffff9c a1=7ffd7a1e585f a2=20000 a3=0 items=1 ppid=3788 pid=3923 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/usr/bin/cp" subj==unconfined key=(null)
+----
+time->Sat Mar  7 20:19:53 2020
+type=PROCTITLE msg=audit(1583612393.657:896): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583612393.657:896): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2624857 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612393.657:896): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583612393.657:896): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583612393.657:896): arch=c000003e syscall=257 success=no exit=-17 a0=ffffff9c a1=7fae94003930 a2=c1 a3=1b6 items=2 ppid=890 pid=4433 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 20:19:53 2020
+type=PROCTITLE msg=audit(1583612393.657:897): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583612393.657:897): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2624857 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612393.657:897): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583612393.657:897): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583612393.657:897): arch=c000003e syscall=257 success=yes exit=21 a0=ffffff9c a1=7fae94003930 a2=20041 a3=1b6 items=2 ppid=890 pid=4433 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 20:19:53 2020
+type=PROCTITLE msg=audit(1583612393.657:898): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583612393.657:898): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-G2PIH0" inode=2626192 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612393.657:898): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583612393.657:898): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583612393.657:898): arch=c000003e syscall=257 success=yes exit=22 a0=ffffff9c a1=7faea804ff00 a2=c1 a3=1b6 items=2 ppid=890 pid=4433 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 20:19:53 2020
+type=PROCTITLE msg=audit(1583612393.697:901): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583612393.697:901): item=4 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626192 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612393.697:901): item=3 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2624857 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612393.697:901): item=2 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-G2PIH0" inode=2626192 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612393.697:901): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612393.697:901): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583612393.697:901): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583612393.697:901): arch=c000003e syscall=82 success=yes exit=0 a0=7faea804ff00 a1=7faea8057000 a2=0 a3=0 items=5 ppid=890 pid=4433 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 20:19:56 2020
+type=PROCTITLE msg=audit(1583612396.073:902): proctitle="/usr/lib/tracker/tracker-extract"
+type=PATH msg=audit(1583612396.073:902): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626192 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583612396.073:902): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583612396.073:902): arch=c000003e syscall=257 success=yes exit=14 a0=ffffff9c a1=7ff034007df0 a2=0 a3=0 items=1 ppid=890 pid=4992 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="single" exe="/usr/lib/tracker/tracker-extract" subj==unconfined key=(null)
+----
+time->Sat Mar  7 20:20:58 2020
+type=PROCTITLE msg=audit(1583612458.574:903): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583612458.574:903): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626192 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612458.574:903): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583612458.574:903): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583612458.574:903): arch=c000003e syscall=257 success=no exit=-17 a0=ffffff9c a1=7fae94003930 a2=c1 a3=1b6 items=2 ppid=890 pid=4433 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 20:20:58 2020
+type=PROCTITLE msg=audit(1583612458.574:904): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583612458.574:904): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626192 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612458.574:904): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583612458.574:904): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583612458.574:904): arch=c000003e syscall=257 success=yes exit=21 a0=ffffff9c a1=7fae94003930 a2=20041 a3=1b6 items=2 ppid=890 pid=4433 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 20:20:58 2020
+type=PROCTITLE msg=audit(1583612458.574:905): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583612458.574:905): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-5TYGH0" inode=2626283 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612458.574:905): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583612458.574:905): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583612458.574:905): arch=c000003e syscall=257 success=yes exit=22 a0=ffffff9c a1=7faea804ff00 a2=c1 a3=1b6 items=2 ppid=890 pid=4433 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 20:20:58 2020
+type=PROCTITLE msg=audit(1583612458.610:908): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1583612458.610:908): item=4 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626283 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612458.610:908): item=3 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626192 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612458.610:908): item=2 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-5TYGH0" inode=2626283 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612458.610:908): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1583612458.610:908): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583612458.610:908): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583612458.610:908): arch=c000003e syscall=82 success=yes exit=0 a0=7faea804ff00 a1=7faea8057000 a2=0 a3=0 items=5 ppid=890 pid=4433 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Sat Mar  7 20:20:58 2020
+type=PROCTITLE msg=audit(1583612458.806:909): proctitle="/usr/lib/tracker/tracker-extract"
+type=PATH msg=audit(1583612458.806:909): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626283 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583612458.806:909): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1583612458.806:909): arch=c000003e syscall=257 success=yes exit=14 a0=ffffff9c a1=7f137c007df0 a2=0 a3=0 items=1 ppid=890 pid=5016 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="single" exe="/usr/lib/tracker/tracker-extract" subj==unconfined key=(null)
+----
+time->Sat Mar  7 20:30:06 2020
+type=PROCTITLE msg=audit(1583613006.236:940): proctitle=6370002D52002F686F6D652F6A656E6E696665722F446F63756D656E74732F41737369676E6D656E74312F7661722F7777772F68746D6C2F696E7472616E65742F696E6465782E68746D6C002F686F6D652F6A656E6E696665722F446F63756D656E74732F41737369676E6D656E74312F7661722F7777772F68746D6C2F6C69
+type=PATH msg=audit(1583613006.236:940): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626283 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583613006.236:940): cwd="/"
+type=SYSCALL msg=audit(1583613006.236:940): arch=c000003e syscall=257 success=yes exit=0 a0=ffffff9c a1=7ffe97577840 a2=20000 a3=0 items=1 ppid=4981 pid=5085 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/usr/bin/cp" subj==unconfined key=(null)
+----
+time->Sun Mar  8 18:45:05 2020
+type=PROCTITLE msg=audit(1583693105.969:142): proctitle=6370002D52002F686F6D652F6A656E6E696665722F446F63756D656E74732F41737369676E6D656E74312F7661722F7777772F68746D6C2F696E7472616E65742F696E6465782E68746D6C002F686F6D652F6A656E6E696665722F446F63756D656E74732F41737369676E6D656E74312F7661722F7777772F68746D6C2F6C69
+type=PATH msg=audit(1583693105.969:142): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626283 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1583693105.969:142): cwd="/"
+type=SYSCALL msg=audit(1583693105.969:142): arch=c000003e syscall=257 success=yes exit=1 a0=ffffff9c a1=7ffe231b2840 a2=20000 a3=0 items=1 ppid=2509 pid=2608 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/usr/bin/cp" subj==unconfined key=(null)
+----
+time->Thu Mar 12 17:13:06 2020
+type=PROCTITLE msg=audit(1584033186.092:163): proctitle=6370002D52002F686F6D652F6A656E6E696665722F446F63756D656E74732F41737369676E6D656E74312F7661722F7777772F68746D6C2F696E7472616E65742F696E6465782E68746D6C002F686F6D652F6A656E6E696665722F446F63756D656E74732F41737369676E6D656E74312F7661722F7777772F68746D6C2F6C69
+type=PATH msg=audit(1584033186.092:163): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2625042 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584033186.092:163): cwd="/"
+type=SYSCALL msg=audit(1584033186.092:163): arch=c000003e syscall=257 success=yes exit=1 a0=ffffff9c a1=7fff44318840 a2=20000 a3=0 items=1 ppid=1882 pid=1916 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=3 comm="cp" exe="/usr/bin/cp" subj==unconfined key=(null)
+----
+time->Thu Mar 12 17:13:53 2020
+type=PROCTITLE msg=audit(1584033233.429:168): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1584033233.429:168): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2625042 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584033233.429:168): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1584033233.429:168): arch=c000003e syscall=257 success=yes exit=21 a0=ffffff9c a1=55fad6a06f20 a2=0 a3=0 items=1 ppid=757 pid=1493 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Thu Mar 12 17:15:05 2020
+type=PROCTITLE msg=audit(1584033305.546:170): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1584033305.546:170): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2625042 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1584033305.546:170): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584033305.546:170): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1584033305.546:170): arch=c000003e syscall=257 success=no exit=-17 a0=ffffff9c a1=55fad6a06f20 a2=c1 a3=1b6 items=2 ppid=757 pid=1493 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Thu Mar 12 17:15:05 2020
+type=PROCTITLE msg=audit(1584033305.546:171): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1584033305.546:171): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2625042 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1584033305.546:171): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584033305.546:171): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1584033305.546:171): arch=c000003e syscall=257 success=yes exit=21 a0=ffffff9c a1=55fad6a06f20 a2=20041 a3=1b6 items=2 ppid=757 pid=1493 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Thu Mar 12 17:15:05 2020
+type=PROCTITLE msg=audit(1584033305.546:172): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1584033305.546:172): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-BV11G0" inode=2626362 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1584033305.546:172): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584033305.546:172): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1584033305.546:172): arch=c000003e syscall=257 success=yes exit=22 a0=ffffff9c a1=7f41dc00c2a0 a2=c1 a3=1b6 items=2 ppid=757 pid=1493 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Thu Mar 12 17:15:05 2020
+type=PROCTITLE msg=audit(1584033305.578:175): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1584033305.578:175): item=4 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626362 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1584033305.578:175): item=3 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2625042 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1584033305.578:175): item=2 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/.goutputstream-BV11G0" inode=2626362 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1584033305.578:175): item=1 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1584033305.578:175): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/" inode=2624875 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584033305.578:175): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1584033305.578:175): arch=c000003e syscall=82 success=yes exit=0 a0=7f41dc00c2a0 a1=7f41dc00bd00 a2=0 a3=0 items=5 ppid=757 pid=1493 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" subj==unconfined key=(null)
+----
+time->Thu Mar 12 17:15:07 2020
+type=PROCTITLE msg=audit(1584033307.298:176): proctitle="/usr/lib/tracker/tracker-extract"
+type=PATH msg=audit(1584033307.298:176): item=0 name="/home/jennifer/Documents/Assignment1/var/www/html/intranet/index.html" inode=2626362 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584033307.298:176): cwd="/home/jennifer"
+type=SYSCALL msg=audit(1584033307.298:176): arch=c000003e syscall=257 success=yes exit=14 a0=ffffff9c a1=7f7a24020520 a2=0 a3=0 items=1 ppid=757 pid=1960 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="single" exe="/usr/lib/tracker/tracker-extract" subj==unconfined key=(null)
